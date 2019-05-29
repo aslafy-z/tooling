@@ -1,5 +1,5 @@
 <script>
   (function() {
-    document.write(window.location.hash.substring(1));
+    document.write(decodeURIComponent(window.location.hash.substring(1)));
   })();
 </script>
